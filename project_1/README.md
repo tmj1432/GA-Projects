@@ -1,6 +1,6 @@
 ### Problem Statement
 
-The new format for the SAT was released in March 2016. Since then, levels of participation in multiple states have changed with varying legislative decisions. This project aims to explore trends in SAT and ACT participation for the years 2017-2019 and identify states with decreasing SAT participation. Combined with outside research, this project also aims to identify factors for the decrease in participation and provide reccomendations for the college board to increase participation.
+The new format for the SAT was released in March 2016. Since then, levels of participation in multiple states have changed with varying legislative decisions. This project aims to explore trends in SAT and ACT participation for the years 2017-2019 and identify states with low SAT participation. Combined with outside research, this project also aims to identify factors for the low participation and provide reccomendations for the college board to increase participation.
 
 ### Outside Research
 
