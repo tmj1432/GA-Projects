@@ -1,0 +1,151 @@
+2022-11-10 19:29:52,192 [INFO]  
+========== start: fit model
+2022-11-10 19:29:52,193 [WARNING]  Already bound, ignoring bind()
+2022-11-10 19:29:52,235 [INFO]  Epoch[0] Batch [0-46]	Speed: 47594.94 samples/sec	cross-entropy=14.293492	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,253 [INFO]  Epoch[0] Train-cross-entropy=10.634772
+2022-11-10 19:29:52,253 [INFO]  Epoch[0] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,253 [INFO]  Epoch[0] Time cost=0.059
+2022-11-10 19:29:52,256 [INFO]  Saved checkpoint to "imputer_model/model-0000.params"
+2022-11-10 19:29:52,259 [INFO]  Epoch[0] Validation-cross-entropy=8.447366
+2022-11-10 19:29:52,259 [INFO]  Epoch[0] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,278 [INFO]  Epoch[1] Batch [0-46]	Speed: 42496.18 samples/sec	cross-entropy=10.821349	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,296 [INFO]  Epoch[1] Train-cross-entropy=9.832334
+2022-11-10 19:29:52,296 [INFO]  Epoch[1] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,297 [INFO]  Epoch[1] Time cost=0.037
+2022-11-10 19:29:52,299 [INFO]  Saved checkpoint to "imputer_model/model-0001.params"
+2022-11-10 19:29:52,301 [INFO]  Epoch[1] Validation-cross-entropy=8.000333
+2022-11-10 19:29:52,302 [INFO]  Epoch[1] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,319 [INFO]  Epoch[2] Batch [0-46]	Speed: 45434.59 samples/sec	cross-entropy=10.500842	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,337 [INFO]  Epoch[2] Train-cross-entropy=9.304065
+2022-11-10 19:29:52,337 [INFO]  Epoch[2] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,338 [INFO]  Epoch[2] Time cost=0.036
+2022-11-10 19:29:52,340 [INFO]  Saved checkpoint to "imputer_model/model-0002.params"
+2022-11-10 19:29:52,342 [INFO]  Epoch[2] Validation-cross-entropy=7.931245
+2022-11-10 19:29:52,343 [INFO]  Epoch[2] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,361 [INFO]  Epoch[3] Batch [0-46]	Speed: 45073.04 samples/sec	cross-entropy=10.331912	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,378 [INFO]  Epoch[3] Train-cross-entropy=8.986338
+2022-11-10 19:29:52,378 [INFO]  Epoch[3] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,379 [INFO]  Epoch[3] Time cost=0.036
+2022-11-10 19:29:52,381 [INFO]  Saved checkpoint to "imputer_model/model-0003.params"
+2022-11-10 19:29:52,383 [INFO]  Epoch[3] Validation-cross-entropy=7.839289
+2022-11-10 19:29:52,384 [INFO]  Epoch[3] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,402 [INFO]  Epoch[4] Batch [0-46]	Speed: 44543.64 samples/sec	cross-entropy=10.167405	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,418 [INFO]  Epoch[4] Train-cross-entropy=8.786495
+2022-11-10 19:29:52,419 [INFO]  Epoch[4] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,419 [INFO]  Epoch[4] Time cost=0.035
+2022-11-10 19:29:52,421 [INFO]  Saved checkpoint to "imputer_model/model-0004.params"
+2022-11-10 19:29:52,424 [INFO]  Epoch[4] Validation-cross-entropy=7.779319
+2022-11-10 19:29:52,424 [INFO]  Epoch[4] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,441 [INFO]  Epoch[5] Batch [0-46]	Speed: 46136.03 samples/sec	cross-entropy=10.026001	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,459 [INFO]  Epoch[5] Train-cross-entropy=8.673178
+2022-11-10 19:29:52,459 [INFO]  Epoch[5] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,460 [INFO]  Epoch[5] Time cost=0.035
+2022-11-10 19:29:52,462 [INFO]  Saved checkpoint to "imputer_model/model-0005.params"
+2022-11-10 19:29:52,464 [INFO]  Epoch[5] Validation-cross-entropy=7.730884
+2022-11-10 19:29:52,465 [INFO]  Epoch[5] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,482 [INFO]  Epoch[6] Batch [0-46]	Speed: 44663.51 samples/sec	cross-entropy=9.881061	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,499 [INFO]  Epoch[6] Train-cross-entropy=8.497244
+2022-11-10 19:29:52,500 [INFO]  Epoch[6] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,500 [INFO]  Epoch[6] Time cost=0.035
+2022-11-10 19:29:52,502 [INFO]  Saved checkpoint to "imputer_model/model-0006.params"
+2022-11-10 19:29:52,504 [INFO]  Epoch[6] Validation-cross-entropy=7.707273
+2022-11-10 19:29:52,505 [INFO]  Epoch[6] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,523 [INFO]  Epoch[7] Batch [0-46]	Speed: 43985.12 samples/sec	cross-entropy=9.774400	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,540 [INFO]  Epoch[7] Train-cross-entropy=8.445625
+2022-11-10 19:29:52,541 [INFO]  Epoch[7] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,541 [INFO]  Epoch[7] Time cost=0.036
+2022-11-10 19:29:52,543 [INFO]  Saved checkpoint to "imputer_model/model-0007.params"
+2022-11-10 19:29:52,546 [INFO]  Epoch[7] Validation-cross-entropy=7.684316
+2022-11-10 19:29:52,546 [INFO]  Epoch[7] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,563 [INFO]  Epoch[8] Batch [0-46]	Speed: 46491.08 samples/sec	cross-entropy=9.680653	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,580 [INFO]  Epoch[8] Train-cross-entropy=8.330598
+2022-11-10 19:29:52,581 [INFO]  Epoch[8] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,581 [INFO]  Epoch[8] Time cost=0.035
+2022-11-10 19:29:52,583 [INFO]  Saved checkpoint to "imputer_model/model-0008.params"
+2022-11-10 19:29:52,586 [INFO]  Epoch[8] Validation-cross-entropy=7.626628
+2022-11-10 19:29:52,586 [INFO]  Epoch[8] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,604 [INFO]  Epoch[9] Batch [0-46]	Speed: 44140.47 samples/sec	cross-entropy=9.552724	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,622 [INFO]  Epoch[9] Train-cross-entropy=8.388115
+2022-11-10 19:29:52,622 [INFO]  Epoch[9] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,623 [INFO]  Epoch[9] Time cost=0.036
+2022-11-10 19:29:52,625 [INFO]  Saved checkpoint to "imputer_model/model-0009.params"
+2022-11-10 19:29:52,627 [INFO]  Epoch[9] Validation-cross-entropy=7.646646
+2022-11-10 19:29:52,628 [INFO]  Epoch[9] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,645 [INFO]  Epoch[10] Batch [0-46]	Speed: 44182.16 samples/sec	cross-entropy=9.501113	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,663 [INFO]  Epoch[10] Train-cross-entropy=8.216000
+2022-11-10 19:29:52,663 [INFO]  Epoch[10] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,664 [INFO]  Epoch[10] Time cost=0.036
+2022-11-10 19:29:52,666 [INFO]  Saved checkpoint to "imputer_model/model-0010.params"
+2022-11-10 19:29:52,668 [INFO]  Epoch[10] Validation-cross-entropy=7.600775
+2022-11-10 19:29:52,668 [INFO]  Epoch[10] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,686 [INFO]  Epoch[11] Batch [0-46]	Speed: 45159.42 samples/sec	cross-entropy=9.414601	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,704 [INFO]  Epoch[11] Train-cross-entropy=8.242243
+2022-11-10 19:29:52,704 [INFO]  Epoch[11] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,705 [INFO]  Epoch[11] Time cost=0.036
+2022-11-10 19:29:52,707 [INFO]  Saved checkpoint to "imputer_model/model-0011.params"
+2022-11-10 19:29:52,709 [INFO]  Epoch[11] Validation-cross-entropy=7.639761
+2022-11-10 19:29:52,710 [INFO]  Epoch[11] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,727 [INFO]  Epoch[12] Batch [0-46]	Speed: 45044.76 samples/sec	cross-entropy=9.343264	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,744 [INFO]  Epoch[12] Train-cross-entropy=8.170062
+2022-11-10 19:29:52,745 [INFO]  Epoch[12] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,745 [INFO]  Epoch[12] Time cost=0.035
+2022-11-10 19:29:52,747 [INFO]  Saved checkpoint to "imputer_model/model-0012.params"
+2022-11-10 19:29:52,750 [INFO]  Epoch[12] Validation-cross-entropy=7.646619
+2022-11-10 19:29:52,750 [INFO]  Epoch[12] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,767 [INFO]  Epoch[13] Batch [0-46]	Speed: 44785.33 samples/sec	cross-entropy=9.293835	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,785 [INFO]  Epoch[13] Train-cross-entropy=8.076311
+2022-11-10 19:29:52,785 [INFO]  Epoch[13] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,785 [INFO]  Epoch[13] Time cost=0.035
+2022-11-10 19:29:52,788 [INFO]  Saved checkpoint to "imputer_model/model-0013.params"
+2022-11-10 19:29:52,790 [INFO]  Epoch[13] Validation-cross-entropy=7.612907
+2022-11-10 19:29:52,790 [INFO]  Epoch[13] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,807 [INFO]  Epoch[14] Batch [0-46]	Speed: 47040.83 samples/sec	cross-entropy=9.231858	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,823 [INFO]  Epoch[14] Train-cross-entropy=8.108051
+2022-11-10 19:29:52,824 [INFO]  Epoch[14] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,824 [INFO]  Epoch[14] Time cost=0.034
+2022-11-10 19:29:52,826 [INFO]  Saved checkpoint to "imputer_model/model-0014.params"
+2022-11-10 19:29:52,829 [INFO]  Epoch[14] Validation-cross-entropy=7.619656
+2022-11-10 19:29:52,829 [INFO]  Epoch[14] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,847 [INFO]  Epoch[15] Batch [0-46]	Speed: 44497.41 samples/sec	cross-entropy=9.197166	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,864 [INFO]  Epoch[15] Train-cross-entropy=8.062750
+2022-11-10 19:29:52,864 [INFO]  Epoch[15] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,865 [INFO]  Epoch[15] Time cost=0.036
+2022-11-10 19:29:52,867 [INFO]  Saved checkpoint to "imputer_model/model-0015.params"
+2022-11-10 19:29:52,870 [INFO]  Epoch[15] Validation-cross-entropy=7.576583
+2022-11-10 19:29:52,870 [INFO]  Epoch[15] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,888 [INFO]  Epoch[16] Batch [0-46]	Speed: 44535.93 samples/sec	cross-entropy=9.143843	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,906 [INFO]  Epoch[16] Train-cross-entropy=7.991595
+2022-11-10 19:29:52,906 [INFO]  Epoch[16] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,907 [INFO]  Epoch[16] Time cost=0.036
+2022-11-10 19:29:52,909 [INFO]  Saved checkpoint to "imputer_model/model-0016.params"
+2022-11-10 19:29:52,911 [INFO]  Epoch[16] Validation-cross-entropy=7.608268
+2022-11-10 19:29:52,912 [INFO]  Epoch[16] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,930 [INFO]  Epoch[17] Batch [0-46]	Speed: 43995.15 samples/sec	cross-entropy=9.122181	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,947 [INFO]  Epoch[17] Train-cross-entropy=8.022582
+2022-11-10 19:29:52,948 [INFO]  Epoch[17] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,948 [INFO]  Epoch[17] Time cost=0.036
+2022-11-10 19:29:52,951 [INFO]  Saved checkpoint to "imputer_model/model-0017.params"
+2022-11-10 19:29:52,953 [INFO]  Epoch[17] Validation-cross-entropy=7.609462
+2022-11-10 19:29:52,953 [INFO]  Epoch[17] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:52,971 [INFO]  Epoch[18] Batch [0-46]	Speed: 44826.30 samples/sec	cross-entropy=9.080555	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:52,989 [INFO]  Epoch[18] Train-cross-entropy=7.956834
+2022-11-10 19:29:52,989 [INFO]  Epoch[18] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:52,990 [INFO]  Epoch[18] Time cost=0.036
+2022-11-10 19:29:52,992 [INFO]  Saved checkpoint to "imputer_model/model-0018.params"
+2022-11-10 19:29:52,994 [INFO]  Epoch[18] Validation-cross-entropy=7.625602
+2022-11-10 19:29:52,994 [INFO]  Epoch[18] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:53,013 [INFO]  Epoch[19] Batch [0-46]	Speed: 43023.90 samples/sec	cross-entropy=9.054381	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:53,031 [INFO]  Epoch[19] Train-cross-entropy=7.901186
+2022-11-10 19:29:53,031 [INFO]  Epoch[19] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:53,032 [INFO]  Epoch[19] Time cost=0.037
+2022-11-10 19:29:53,034 [INFO]  Saved checkpoint to "imputer_model/model-0019.params"
+2022-11-10 19:29:53,036 [INFO]  Epoch[19] Validation-cross-entropy=7.601776
+2022-11-10 19:29:53,037 [INFO]  Epoch[19] Validation-lot_frontage-accuracy=0.000000
+2022-11-10 19:29:53,054 [INFO]  Epoch[20] Batch [0-46]	Speed: 45123.12 samples/sec	cross-entropy=8.986074	lot_frontage-accuracy=2.595745
+2022-11-10 19:29:53,071 [INFO]  Epoch[20] Train-cross-entropy=8.007426
+2022-11-10 19:29:53,072 [INFO]  Epoch[20] Train-lot_frontage-accuracy=2.555556
+2022-11-10 19:29:53,072 [INFO]  Epoch[20] Time cost=0.035
+2022-11-10 19:29:53,074 [INFO]  Saved checkpoint to "imputer_model/model-0020.params"
+2022-11-10 19:29:53,077 [INFO]  No improvement detected for 5 epochs compared to 7.576582696702745 last error obtained: 7.678141726387872, stopping here
+2022-11-10 19:29:53,077 [INFO]  
+========== done (0.8848791122436523 s) fit model
