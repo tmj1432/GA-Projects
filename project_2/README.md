@@ -8,16 +8,27 @@ In this challenge, you we use the well known **Ames housing data to create a reg
 
 This project has been broken up into two parts.
 
-Part 1 of the jupyter notebook consists of mainly data cleaning, exploratory data analysis and feature engineering.
+Part 1 of the jupyter notebook consists of mainly **data cleaning**, **exploratory data analysis** and **feature engineering**.
 
-Part 2 of the jupyter notebook consists of model selection, model preprocessing, running models and model evaluation.
+Part 2 of the jupyter notebook consists of **model selection**, **model preprocessing**, **running models** and **model evaluation**.
+
+
+### Tech Used
+
+1) Pandas
+2) Numpy
+3) Matplotlib
+4) Seaborn 
+5) ScikitLearn (Mainly used in part 2 for modeling, but Iterative Imputer is used to fill missing values in part 1)
+6) statsmodel.api (Used to get summary of p-values of features)
+7) SHAP (https://shap.readthedocs.io/en/latest/) (Used to increase explainability of machine learning models)
 
 
 ### Problem Statement
 
 I am a data scientist working for an online property agency in the United States.  
 
-This online platform allows clients to put their properties on sale. When transactions are made, the company then takes a percentage of commission. As part of a new service, the company wishes to help clients properly value their properties and prevent our clients from being low-balled. When **clients make profits, the company also enjoys a higher commission** creating a win-win situation for both the company and its clients.  
+This online platform allows clients to put their properties on sale. When transactions are made, the company then takes a percentage of commission. As part of a new service, the company wishes to help clients properly value their properties and prevent our clients from being low-balled. **When clients make more profits, the company also enjoys a higher commission** creating a win-win situation for both the company and its clients.  
 
 In view of the increase in property transactions in Ames, Iowa, the company is also looking to expand into Ames to take advantage of the increase in property transactions.
 
@@ -29,11 +40,11 @@ As part of the Data Science team, I am tasked to build a regression model to pre
 
 In order to tackle this data science problem given to me, we first had to clean the data and decide the best imputation methods to fill them. Afterwards, we did an exploratory data analysis in which we had identified important features and also engineered some. Thereafter, we went on with the modeling process to train a regression model that beats a benchmark model.
 
-Linking back to the problem statement, we have successfully hit all business requirements for this project. With a model score of almost 90%, an RMSE of $13.50 and requiring only 13 features, we have essentially went over and beyond. This means that the regression is able to generalise sale price and predict an outcome with a low error term.
+Linking back to the problem statement, we have successfully hit all business requirements for this project. With a **model score of almost 90%**, an **RMSE of $24,741** and **requiring only 13 features**, we have essentially went over and beyond. This means that the regression is able to generalise sale price and predict an outcome with a low error term.
 
 Through this process, we have also discovered features that contributes most to the prediction of sale price and we can use this knowledge to help clients and when clients are able to improve their housing, they will be able to fetch a higher sale price which means more commission for the company, creating a win-win situation for both clients and our company.
 
-All in all, I would consider this project a success. We managed to train a regression model that exceeded expectation.
+All in all, **I would consider this project a success**. We managed to train a regression model that exceeded expectation.
 
 **Reccomendations**
 
