@@ -9,7 +9,7 @@ For this project, we will be scraping data from two subreddits. Thereafter, we w
 Part 1 of the project includes scraping data from Reddit
 Part 2 of the project includes data cleaning, data pre-processing, exploratory data analysis, model pre-processing, modeling, final model selection, conclusion and recommendations.
 
-### Tech Used
+### Libraries Used
 
 1) Pandas
 2) Numpy

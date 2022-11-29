@@ -13,7 +13,7 @@ Part 1 of the jupyter notebook consists of mainly **data cleaning**, **explorato
 Part 2 of the jupyter notebook consists of **model selection**, **model preprocessing**, **running models** and **model evaluation**.
 
 
-### Tech Used
+### Libraries Used
 
 1) Pandas
 2) Numpy
