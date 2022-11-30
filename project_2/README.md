@@ -4,6 +4,8 @@ As part of a successful submission for Project 2, we are expected to make at lea
 
 In this challenge, you we use the well known **Ames housing data to create a regression model** that **predicts the price of houses in Ames, IA**.
 
+For this dataset, the data dictionary can be found at this [link](https://www.kaggle.com/competitions/dsi-us-11-project-2-regression-challenge/data)
+
 ### Contents of this file
 
 This project has been broken up into two parts.
@@ -45,6 +47,12 @@ Linking back to the problem statement, we have successfully hit all business req
 Through this process, we have also discovered features that contributes most to the prediction of sale price and we can use this knowledge to help clients and when clients are able to improve their housing, they will be able to fetch a higher sale price which means more commission for the company, creating a win-win situation for both clients and our company.
 
 All in all, **I would consider this project a success**. We managed to train a regression model that exceeded expectation.
+
+**Limitations**
+
+1) Linear Regression is sensitive to outliers. However, we have used a cuberoot transformation to deal with these outliers as explained during EDA. 
+
+2) External Factors such as economical push may influence housing price e.g. 2008 housing crisis in the US. These factors are out of our control and the model needs to be maintained to accomodate to such factors.
 
 **Reccomendations**
 
