@@ -20,13 +20,19 @@ Part 2 of the project includes data cleaning, data pre-processing, exploratory d
 
 ### Problem Statement
 
-According to Bachmann S. Epidemiology of Suicide and the Psychiatric Perspective, most suicides are related to psychiatric disease, with depression, substance use disorders and psychosis being the most relevant risk factors. In view of this statistic, a newly developed social media application, Chipper, has implemented a new feature where users are able to report other users' posts for suspected mental health issue so that they will be able to provide help to these users before it is too late.
+According to JAMA Psychiatry, studies show that adolescents who use social media more than three hours per day may be at heightened risk of mental health problems.
+
+Additionally, according to Bachmann S. Epidemiology of Suicide and the Psychiatric Perspective, most suicides are related to psychiatric disease, with depression, substance use disorders and psychosis being the most relevant risk factors.
+
+
+In view of these statistic, as a corporate social responsibility of a newly developed social media application, Chipper, they have implemented a new feature where users are able to report other users' posts for suspected mental health issue so that they will be able to provide help to these users before it is too late.
 
 As a data scientist working in this company, I am tasked to train a classifier that will categorise posts that were
-reported for mental health issues into either Anxiety or Depression so that we are able to route these users to its appropriate helpline. The two **classifiers we will be using in this project are Logistic Regression and Naive Bayes**. To train the classifier, I will be using posts from **Reddit's r/Anxiety and r/Depression subreddits as proxy data**.
+reported for mental health issues into either Anxiety or Depression so that we are able to route these users to its appropriate helpline. The **two classifiers we will be using in this project are Logistic Regression and Naive Bayes**. To train the classifier, I will be using posts from **Reddit's r/Anxiety and r/Depression subreddits as proxy data**.
 
-Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6165520/#B1-ijerph-15-02028
+[Source 1](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2749480)
 
+[Source 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6165520/#B1-ijerph-15-02028)
 
 ### Success Metrics
 For this project to be considered successful, we will aim to optimise **Accuracy and Precision Score**.
