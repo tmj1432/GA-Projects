@@ -40,19 +40,20 @@ With this in mind, we will be trying to hit the **target of greater than 90% for
 ### Final Model Selection
 |Model|Method|Accuracy (Train)|Accuracy (Test)|Precision (0)|Precision (1)|AUC|
 |---|---|---|---|---|---|---|
-|Logistic Regression|Bag of Words|0.9984|0.8913|0.91|0.88|0.94|
+|Logistic Regression|Bag of Words|0.9934|0.8932|0.91|0.88|0.94|
 |Naive Bayes Bernouli|Bag of Words|0.9208|0.8500|0.84|0.86|0.92|
 |Naive Bayes Multinomial|Bag of Words|0.9278|0.8744|0.89|0.86|0.93|
-|**Logistic Regression**|**TF-IDF (Uni-Gram)**|**0.9850**|**0.9082**|**0.91**|**0.90**|**0.96**|
+|**Logistic Regression**|**TF-IDF (Uni-Gram)**|**0.9363**|**0.9110**|**0.91**|**0.90**|**0.96**|
 |Naive Bayes Bernouli|TF-IDF (Uni-Gram)|0.9208|0.8500|0.84|0.86|0.92|
 |Naive Bayes Multinomial|TF-IDF (Uni-Gram)|0.9253|0.8735|0.87|0.89|0.94|
-|Logistic Regression|TF-IDF (Bi-Gram)|0.9988|0.8304|0.84|0.82|0.91|
+|Logistic Regression|TF-IDF (Bi-Gram)|0.9934|0.8247|0.84|0.82|0.91|
 |Naive Bayes Bernouli|TF-IDF (Bi-Gram)|0.9213|0.6579|0.61|0.91|0.90|
 |Naive Bayes Multinomial|TF-IDF (Bi-Gram)|0.9974|0.8379|0.81|0.88|0.92|
 
+
 Based on the summary of scores above, we will select the Final Model which is Logistic Regression using TF-IDF (Uni-Gram).
 
-It has an train accuracy of 0.9850, test accuracy of 0.9082, Precision(0) of 0.91 and Precision(1) of 0.90. It is the best model as compared to all the other models and it also meets our expectations of accuracy and precision score of greater than 0.90. As a bonus, it also has an AUC of 0.96 which is also the highest out of all the other models. 
+It has an train accuracy of 0.9363, test accuracy of 0.9110, Precision(0) of 0.91 and Precision(1) of 0.90. It is the best model as compared to all the other models and it also meets our expectations of accuracy and precision score of greater than 0.90. As a bonus, it also has an AUC of 0.96 which is also the highest out of all the other models. 
 
 ### Conclusion
 
