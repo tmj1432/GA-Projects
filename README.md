@@ -8,4 +8,7 @@ Welcome to my Repository! This repository showcases Data Science Projects that a
 ### Project 2 : Regression Challenge (Predict Housing Price in Ames, Iowa)
 
 
-### Project 3: Web APIs & Natural Language Processing 
+### Project 3 : Web APIs & Natural Language Processing 
+
+
+### Project 4 : Predicting West Nile Virus (Kaggle Competition)
